@@ -1,0 +1,280 @@
+{
+  "quizfragen": [
+    {
+      "frage": "Welcher Komponist schrieb die 'Mondscheinsonate'?",
+      "kategorie": "Musik und Kunst",
+      "antworten": [
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Ludwig van Beethoven",
+        "Franz Schubert"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Welches chemische Element hat das Symbol 'Au'?",
+      "kategorie": "Wissenschaft",
+      "antworten": [
+        "Silber",
+        "Gold",
+        "Kupfer",
+        "Aluminium"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "In welchem Jahr fiel die Berliner Mauer?",
+      "kategorie": "Geschichte",
+      "antworten": [
+        "1987",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "Was ist die Hauptstadt von Australien?",
+      "kategorie": "Länder und Städte",
+      "antworten": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Welcher Schauspieler spielte die Hauptrolle in 'Forrest Gump'?",
+      "kategorie": "Prominente und Stars",
+      "antworten": [
+        "Tom Hanks",
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Johnny Depp"
+      ],
+      "richtigeAntwort": 0
+    },
+    {
+      "frage": "Welche Sportart wird als 'König der Sportarten' bezeichnet?",
+      "kategorie": "Sport",
+      "antworten": [
+        "Fußball",
+        "Basketball",
+        "Tennis",
+        "Leichtathletik"
+      ],
+      "richtigeAntwort": 3
+    },
+    {
+      "frage": "Wer malte 'Die Sternennacht'?",
+      "kategorie": "Musik und Kunst",
+      "antworten": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Salvador Dalí"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "Was ist die kleinste Einheit des Lebens?",
+      "kategorie": "Wissenschaft",
+      "antworten": [
+        "Atom",
+        "Molekül",
+        "Zelle",
+        "Gewebe"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+      "kategorie": "Geschichte",
+      "antworten": [
+        "Willy Brandt",
+        "Konrad Adenauer",
+        "Helmut Schmidt",
+        "Helmut Kohl"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "An welchem Fluss liegt die Stadt Paris?",
+      "kategorie": "Länder und Städte",
+      "antworten": [
+        "Rhein",
+        "Themse",
+        "Seine",
+        "Donau"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Welcher Sänger war bekannt als 'The King of Pop'?",
+      "kategorie": "Prominente und Stars",
+      "antworten": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prince",
+        "David Bowie"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?",
+      "kategorie": "Sport",
+      "antworten": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Welches Instrument wird oft als 'Königin der Instrumente' bezeichnet?",
+      "kategorie": "Musik und Kunst",
+      "antworten": [
+        "Klavier",
+        "Violine",
+        "Orgel",
+        "Gitarre"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Was ist das häufigste Element im Universum?",
+      "kategorie": "Wissenschaft",
+      "antworten": [
+        "Sauerstoff",
+        "Helium",
+        "Kohlenstoff",
+        "Wasserstoff"
+      ],
+      "richtigeAntwort": 3
+    },
+    {
+      "frage": "In welchem Jahr endete der Zweite Weltkrieg?",
+      "kategorie": "Geschichte",
+      "antworten": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Welches Land hat die größte Fläche?",
+      "kategorie": "Länder und Städte",
+      "antworten": [
+        "China",
+        "USA",
+        "Kanada",
+        "Russland"
+      ],
+      "richtigeAntwort": 3
+    },
+    {
+      "frage": "Wer spielte die Hauptrolle in 'Titanic'?",
+      "kategorie": "Prominente und Stars",
+      "antworten": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Johnny Depp",
+        "Tom Cruise"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "Welche Sportart wird auf einem Velodrom ausgeübt?",
+      "kategorie": "Sport",
+      "antworten": [
+        "Schwimmen",
+        "Bahnradsport",
+        "Leichtathletik",
+        "Eisschnelllauf"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "Wer komponierte die 'Vier Jahreszeiten'?",
+      "kategorie": "Musik und Kunst",
+      "antworten": [
+        "Johann Sebastian Bach",
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Antonio Vivaldi"
+      ],
+      "richtigeAntwort": 3
+    },
+    {
+      "frage": "Was ist die Hauptfunktion der Mitochondrien in einer Zelle?",
+      "kategorie": "Wissenschaft",
+      "antworten": [
+        "Energieproduktion",
+        "Proteinabbau",
+        "DNA-Replikation",
+        "Zellmembranbildung"
+      ],
+      "richtigeAntwort": 0
+    },
+    {
+      "frage": "Wann fand die Französische Revolution statt?",
+      "kategorie": "Geschichte",
+      "antworten": [
+        "1689",
+        "1789",
+        "1889",
+        "1989"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "Welche Stadt wird oft als 'Die Ewige Stadt' bezeichnet?",
+      "kategorie": "Länder und Städte",
+      "antworten": [
+        "Athen",
+        "Jerusalem",
+        "Rom",
+        "Kairo"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Welcher Schauspieler ist bekannt für seine Rolle als James Bond in mehreren Filmen?",
+      "kategorie": "Prominente und Stars",
+      "antworten": [
+        "Pierce Brosnan",
+        "Sean Connery",
+        "Roger Moore",
+        "Daniel Craig"
+      ],
+      "richtigeAntwort": 1
+    },
+    {
+      "frage": "In welcher Sportart wird der Stanley Cup vergeben?",
+      "kategorie": "Sport",
+      "antworten": [
+        "Basketball",
+        "American Football",
+        "Eishockey",
+        "Baseball"
+      ],
+      "richtigeAntwort": 2
+    },
+    {
+      "frage": "Welcher Künstler malte 'Die Geburt der Venus'?",
+      "kategorie": "Musik und Kunst",
+      "antworten": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Sandro Botticelli",
+        "Raphael"
+      ],
+      "richtigeAntwort": 2
+    }
+  ]
+}
+
