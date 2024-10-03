@@ -1,7 +1,7 @@
 <template>
     <div className="h-12 bg-white border-b border-gray-200 flex items-center gap-2 px-3">
         <Icon name="material-symbols:help" size="1.5rem"/>
-        <div class="font-bold">Nuxt Quiz</div>
+        <div class="font-bold">NuxtQuiz</div>
         <div class="w-16"></div>
         <template v-for="item in items" :key="item.id"">
             <a 

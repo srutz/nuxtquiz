@@ -1,37 +1,46 @@
 <template>
-    <div class="grow inset-0 relative overflow-y-auto w-full" ref="elem">
-        <QuizCard v-for="(question, index) in questions" :key="question.id" :question="question"
-            :animation="index == 0 && animationState == 'moveaway' ? 'moveaway' : 'none'"
-            :content-opacity="index == 0 ? 1 : 0" @answer-submitted="submitAnswer" class="absolute"
-            :style="makeCardStyle(index, questions.length)" />
+    <div class="grow h-1 flex flex-col gap-4 justify-center items-center py-4">
+        <div class="self-center">Frage {{ currentIndex + 1 }} von {{ questions.length }}</div>
+        <div  class="grow inset-0 relative overflow-y-hidden w-[400px] flex flex-col gap-2" ref="elem">
+                <QuizCard v-for="(question, index) in questions" :key="question.id" :question="question"
+                    :animation="index == 0 && animationState == 'moveaway' ? 'moveaway' : 'none'"
+                    :content-opacity="index == 0 ? 1 : 0" @answer-submitted="submitAnswer" class="absolute"
+                    :style="makeCardStyle(index, questions.length)" />
+        </div>
     </div>
 </template>
 
 <script setup lang="ts">
 
 import { ref, type CSSProperties } from 'vue'
-import { makeGermanQuestions } from '~/common/Categories'
 import type { Question } from '~/common/Types';
 import { Util } from '~/common/Util'
 import type { AnswerSubmission } from '~/components/QuizCard.vue'
 
 
+const { setQuizState, addCorrectAnswer } = useApplicationState()
+
 const props = defineProps<{
     questions: Question[]
 }>();
 
-const questions = ref(props.questions.slice(0, 6))
+const questions = shallowRef(props.questions/*.slice(0, 3)*/)
 
 type AnimationState = "moveaway" | "moveup" | "done"
 const animationState = ref<AnimationState>("done")
 
 const elem = ref<HTMLElement | null>(null)
+const currentIndex = ref(0)
 
 const moveQuestions = () => {
     animationState.value = "moveaway"
     setTimeout(() => {
-        questions.value = Util.rotateArray(questions.value, -1)
-        //questions.value = Util.shuffledCopy(questions.value)
+        const newQuestions = Util.rotateArray([...questions.value], -1)
+        questions.value = newQuestions
+        currentIndex.value = currentIndex.value + 1
+        if (currentIndex.value == questions.value.length) {
+            setQuizState("FINISHED")
+        }
         animationState.value = "moveup"
         setTimeout(() => {
             animationState.value = "done"
@@ -39,7 +48,9 @@ const moveQuestions = () => {
     }, 300)
 }
 const submitAnswer = (submission: AnswerSubmission) => {
-    console.log(submission)
+    if (submission.selectedAnswer == submission.question.correctIndex) {
+        addCorrectAnswer()
+    }
     moveQuestions()
 }
 

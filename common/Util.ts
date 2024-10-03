@@ -13,7 +13,7 @@ export class Util {
     // roateArray  shiftArray
     static rotateArray<T>(input: T[], k: number) {
         const n = input.length
-        k = ((k % n) + n) % n  // Normalize k
+        k = ((k % n) + n) % n
         return [...input.slice(-k), ...input.slice(0, -k)]
     }
 }
