@@ -1,4 +1,13 @@
-# Nuxt 3 Quit
+# Nuxt 3 Quiz
+
+
+
+## Run it
+
+```
+npm install
+npm run dev
+```
 
 ## Run the node.js server explicitly
 ```bash
