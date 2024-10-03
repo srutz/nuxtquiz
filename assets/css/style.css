@@ -3,12 +3,11 @@
 }
 
 body {
-    overflow: hidden;
-    @apply h-dvh w-dvw bg-gray-100;
+    @apply h-dvh w-dvw bg-gray-100 overflow-hidden;
 }
 
 body>div {
-    @apply h-dvh w-dvw flex flex-col;
+    @apply h-dvh w-dvw flex flex-col overflow-hidden;
 }
 
 button,
